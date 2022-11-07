@@ -6,7 +6,7 @@
 }
 
 #header {
-  background-image: url(bg.jpg);
+  background-color: rgb(88, 82, 74, 0.4);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -50,6 +50,11 @@ margin-top: 10px;
 
 }
 
+#section-a:hover {
+  color: black;
+  transition: all 1s;
+}
+
 #section-b {
   display: flex;
 }
@@ -57,7 +62,7 @@ margin-top: 10px;
 #section-b div {
   padding: 20px;
   margin: 5px;
-  background: rgb(150, 150, 240);
+  background: rgb(88, 82, 74, 0.4);
   border: 2px solid black;
 }
 
@@ -70,7 +75,7 @@ margin-top: 10px;
 }
 
 .footer {
-  background: black;
+  background: rgb(88, 82, 74, 0.4);
   color: white;
   text-align: center;
 }

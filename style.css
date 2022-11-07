@@ -1,0 +1,76 @@
+*  {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#header {
+  background-image: url(/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#header h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#header p {
+  font-size: 20px;
+}
+
+#header .button {
+font-size: 18px;
+text-decoration: none;
+color: rgb(15, 15, 13);
+border: 2px solid rgb(22, 22, 21);
+border-radius: 20px;
+padding: 5px;
+margin-top: 10px;
+}
+
+#header .button:hover {
+  background:rgb(214, 212, 209);
+  color: black;
+}
+
+#section-a {
+  padding: 20px;
+  background: rgb(150, 150, 240);
+  text-align: center;
+  color: white;
+
+}
+
+#section-b {
+  display: flex;
+}
+
+#section-b div {
+  padding: 20px;
+  margin: 5px;
+  background: rgb(150, 150, 240);
+  border: 2px solid black;
+}
+
+#section-c {
+  padding: 20px;
+  background: rgb(150, 150, 240);
+  text-align: center;
+  color: white;
+
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+}
